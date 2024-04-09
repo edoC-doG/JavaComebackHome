@@ -3,7 +3,6 @@ package Lab03;
 import java.util.Scanner;
 
 public class Bai04 {
-//	Cộng các số chia hết cho 5 trong mảng
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Nhap kich thuoc cua mang");
@@ -17,6 +16,7 @@ public class Bai04 {
 				sum += a[i];
 			}
 		}
+		sc.close();
 		System.out.println("Tong cac so chia het cho 5 co trong mang: " + sum);
 	}
 }

@@ -11,6 +11,7 @@ public class Bai01 {
 		for (int i = 2; i <= a - 1; i++) {
 			if (a % i == 0) {
 				System.out.println("Orther requal: " + i);
+				count++;
 			}
 		}
 		if (count == 0) {
