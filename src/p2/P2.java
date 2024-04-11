@@ -1,13 +1,20 @@
 package p2;
 
-import p1.P;
+import java.util.Scanner;
 
 public class P2 {
 	public static void main(String[] args) {
-		P firstObj = new P();
-		firstObj.a = 10;
-//		firstObj.b = 10; default
-//		firstObj.c = 10; protected
-//		firstObj.d = 10; private
+		Scanner sc = new Scanner(System.in);
+		while (true) {
+			System.out.println("Nhap X");
+			try {
+				int a = sc.nextInt();
+				System.out.println("Ket qua: " + a);
+				break;
+			} catch (Exception e) {
+				sc.next();
+				System.out.println("Error");
+			}
+		}
 	}
 }
